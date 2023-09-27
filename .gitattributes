@@ -1,0 +1,4 @@
+linux.tar.gz filter=lfs diff=lfs merge=lfs -text
+mysql.tar.gz filter=lfs diff=lfs merge=lfs -text
+nfs.tar.gz filter=lfs diff=lfs merge=lfs -text
+ssl.tar.gz filter=lfs diff=lfs merge=lfs -text
