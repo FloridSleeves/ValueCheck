@@ -5,7 +5,6 @@ tar -xf nfs.tar.gz
 
 rm -rf result
 rm -rf tmp
-python -m venv vc-env
 source vc-env/bin/activate
 mkdir -p result
 mkdir -p tmp
