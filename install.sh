@@ -8,6 +8,7 @@ mkdir -p build
 cd build
 cmake ..
 make
+cd ../..
 
 python3 -m venv vc-env
 source vc-env/bin/activate
