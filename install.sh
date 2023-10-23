@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt install cmake gcc g++ libtinfo5 libz-dev zip wget 
 cd SVF/
 source build.sh
