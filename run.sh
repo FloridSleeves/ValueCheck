@@ -1,3 +1,4 @@
+#!/bin/bash
 tar -xf linux.tar.gz
 tar -xf mysql.tar.gz
 tar -xf ssl.tar.gz
