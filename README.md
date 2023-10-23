@@ -20,6 +20,12 @@ The artifact is available on GitHub at https://github.com/floridsleeves/ValueChe
 - SVF >= 2.7
 - LLVM >= 12.0
 - git-lfs >= 2.9.2
+
+### git-lfs
+In the `run.sh` script we include the automatically set up for git-lfs. However, your installation might slightly change according to the [instructions](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage?platform=linux).
+
+You can use `git lfs clone` to download this repo to your local machine. In some new version of gits, `git clone` has been updated in upstream Git to have comparable
+speeds to `git lfs clone`.
   
 ## Data sets
 - The artifact evaluates four open-source web applications. The scripts will automatically download their source code from GitHub and checkout the corresponding versions. 
