@@ -19,7 +19,8 @@ The artifact is available on GitHub at https://github.com/floridsleeves/ValueChe
 - Python >=3.8
 - SVF >= 2.7
 - LLVM >= 12.0
-
+- git-lfs >= 2.9.2
+  
 ## Data sets
 - The artifact evaluates four open-source web applications. The scripts will automatically download their source code from GitHub and checkout the corresponding versions. 
 - The directory `bitcode` in the artifact includes the pre-compiled bitcode from each application by `wllvm` with flag `-fno-inline` `-O0` and `-g`. The bitcodes are broken into different modules to reduce the inter-procedural value analysis time of SVF.
